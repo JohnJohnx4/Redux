@@ -8,7 +8,7 @@ class Todo extends Component {
         this.props.toggleComplete(this.props.index);
         console.log(this.props.todo.completed);
     }
-    
+     
     render() {
         return (
             <li className="Todo">
